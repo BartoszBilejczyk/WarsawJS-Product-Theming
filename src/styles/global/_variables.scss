@@ -8,21 +8,3 @@ $global-vars: (
   ui-default-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3),
   ui-default-box-shadow--big: 0 2px 4px 4px rgba(0, 0, 0, 0.15),
 );
-
-
-$localVars: (
-  logo: (
-    height: 80px,
-    width: 80px
-  )
-);
-
-
-$local-video-height: 120px;
-$local-video-width: 120px * 16 / 9;
-
-$local-video-height--small: 100px;
-$local-video-width--small: 100px * 9 / 16;
-
-$header-height: 50px;
-$header-margin-bottom: 16px;

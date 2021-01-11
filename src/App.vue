@@ -158,12 +158,12 @@
       &-button {
         font-size: 14px;
         font-weight: 700;
-        padding: $button-padding;
-        box-shadow: $button-box-shadow;
-        text-transform: $button-text-transform;
-        border-radius: $base-border-radius;
-        background: color(product-accent);
-        color: white;
+        box-shadow: local-vars(button, box-shadow);
+        background: local-vars(button, background);
+        padding: local-vars(button, padding);
+        border-radius: local-vars(button, border-radius);
+        color: local-vars(button, color);
+        border: local-vars(button, border);
       }
     }
 

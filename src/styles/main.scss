@@ -18,6 +18,11 @@ $vars: (
       --#{$prefix}-#{$name}: #{$value};
     }
   }
+  @each $prefix, $var in $local-vars {
+    @each $name, $value in $var {
+      --local-#{$prefix}-#{$name}: #{$value};
+    }
+  }
 }
 
 @import './utils/_normalize.scss';

@@ -8,17 +8,26 @@ $colors: (
   product-background: #FFFFFF
 );
 
-$logo-base-width: 150px;
-$base-border-radius: 4px;
-$button-box-shadow: none;
-$button-padding: 6px 12px;
-$button-text-transform: uppercase;
+$local-vars: (
+  logo: (
+    width: 150px
+  ),
+  button: (
+    box-shadow: none,
+    background: #1877F2,
+    border: none,
+    border-radius: 6px,
+    padding: 12px 24px,
+    color: white
+  )
+);
 
-$global-font-name: 'Lato';
+$base-border-radius: 8px;
+$global-font-name: 'Roboto';
 $font-faces-config: (
   300: 'Light',
   400: 'Regular',
-  500: 'Regular',
+  500: 'Medium',
   600: 'Bold',
-  700: 'Bold',
+  700: 'Black',
 );

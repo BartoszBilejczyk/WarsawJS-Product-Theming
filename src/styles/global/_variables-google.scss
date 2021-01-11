@@ -8,17 +8,26 @@ $colors: (
   product-background: #FFFFFF
 );
 
-$logo-base-width: 150px;
-$base-border-radius: 20px;
-$button-box-shadow: none;
-$button-padding: 6px 16px;
-$button-text-transform: lowercase;
+$local-vars: (
+  logo: (
+    width: 150px
+  ),
+  button: (
+    box-shadow: 0 1px 3px 1px rgba(60,64,67,0.149),
+    background: white,
+    border: none,
+    border-radius: 24px,
+    padding: 16px 24px,
+    color: #3c4043
+  )
+);
 
-$global-font-name: 'Montserrat';
+$base-border-radius: 12px;
+$global-font-name: 'Roboto';
 $font-faces-config: (
   300: 'Light',
   400: 'Regular',
   500: 'Medium',
-  600: 'SemiBold',
-  700: 'Bold',
+  600: 'Bold',
+  700: 'Black',
 );

@@ -6,10 +6,10 @@
   @return var(--global-#{$var-name});
 }
 
-@function localVars($component, $key) {
-  @if not map-has-key($localVars, $component) {
+@function local-vars($component, $key) {
+  @if not map-has-key($local-vars, $component) {
     @error 'No such component!'
-  } @else if not map-has-key(map-get($localVars, $component), $key) {
+  } @else if not map-has-key(map-get($local-vars, $component), $key) {
     @error 'No such selector!'
   } @else {
     @return var(--local-#{$component}-#{$key});

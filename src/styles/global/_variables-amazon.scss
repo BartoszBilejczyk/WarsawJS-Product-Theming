@@ -2,23 +2,32 @@ $colors: (
   product-primary-light: lighten(#F29D38, 4%),
   product-primary: #F29D38,
   product-primary-dark: darken(#F29D38, 4%),
-  product-accent: #F29D38,
-  product-accent-dark: darken(#F29D38, 4%),
-  product-text-on-light: #000000,
+  product-accent: #c89411,
+  product-accent-dark: darken(#c89411, 4%),
+  product-text-on-light: #111,
   product-background: #D5DFEC
 );
 
-$logo-base-width: 150px;
-$base-border-radius: 5px;
-$button-box-shadow: 0 20px 20px -20px rgba(0,0,0,.1);
-$button-padding: 6px 12px;
-$button-text-transform: initial;
+$local-vars: (
+  logo: (
+    width: 150px
+  ),
+  button: (
+    box-shadow: inset 0 1px 0 0 #fcf3dc,
+    background: linear-gradient(to bottom, #f8e3ad, #EEBA37),
+    border: 1px solid #c89411 #b0820f #99710d,
+    border-radius: 3px,
+    padding: 6px 12px,
+    color: #111
+  )
+);
 
-$global-font-name: 'NunitoSans';
+$base-border-radius: 4px;
+$global-font-name: 'Assistant';
 $font-faces-config: (
   300: 'Light',
   400: 'Regular',
-  500: 'Regular',
+  500: 'Medium',
   600: 'SemiBold',
   700: 'Bold',
 );

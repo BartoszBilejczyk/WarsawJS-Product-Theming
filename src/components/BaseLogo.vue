@@ -19,7 +19,7 @@
 
 <style scoped lang="scss">
   .logo {
-    width: $logo-base-width;
+    width: local-vars(logo, width);
     height: auto;
   }
 </style>
