@@ -1,0 +1,24 @@
+$colors: (
+  product-primary-light: lighten(#415993, 4%),
+  product-primary: #415993,
+  product-primary-dark: darken(#415993, 4%),
+  product-accent: #3C3C3C,
+  product-accent-dark: darken(#3C3C3C, 4%),
+  product-text-on-light: #111,
+  product-background: #FFFFFF
+);
+
+$logo-base-width: 150px;
+$base-border-radius: 4px;
+$button-box-shadow: none;
+$button-padding: 6px 12px;
+$button-text-transform: uppercase;
+
+$global-font-name: 'Lato';
+$font-faces-config: (
+  300: 'Light',
+  400: 'Regular',
+  500: 'Regular',
+  600: 'Bold',
+  700: 'Bold',
+);

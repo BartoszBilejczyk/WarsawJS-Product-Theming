@@ -1,0 +1,24 @@
+$colors: (
+  product-primary-light: lighten(#5185EC, 4%),
+  product-primary: #5185EC,
+  product-primary-dark: darken(#5185EC, 4%),
+  product-accent: #35302F,
+  product-accent-dark: darken(#35302F, 4%),
+  product-text-on-light: #111,
+  product-background: #FFFFFF
+);
+
+$logo-base-width: 150px;
+$base-border-radius: 20px;
+$button-box-shadow: none;
+$button-padding: 6px 16px;
+$button-text-transform: lowercase;
+
+$global-font-name: 'Montserrat';
+$font-faces-config: (
+  300: 'Light',
+  400: 'Regular',
+  500: 'Medium',
+  600: 'SemiBold',
+  700: 'Bold',
+);

@@ -1,0 +1,24 @@
+$colors: (
+  product-primary-light: lighten(#F29D38, 4%),
+  product-primary: #F29D38,
+  product-primary-dark: darken(#F29D38, 4%),
+  product-accent: #F29D38,
+  product-accent-dark: darken(#F29D38, 4%),
+  product-text-on-light: #000000,
+  product-background: #D5DFEC
+);
+
+$logo-base-width: 150px;
+$base-border-radius: 5px;
+$button-box-shadow: 0 20px 20px -20px rgba(0,0,0,.1);
+$button-padding: 6px 12px;
+$button-text-transform: initial;
+
+$global-font-name: 'NunitoSans';
+$font-faces-config: (
+  300: 'Light',
+  400: 'Regular',
+  500: 'Regular',
+  600: 'SemiBold',
+  700: 'Bold',
+);

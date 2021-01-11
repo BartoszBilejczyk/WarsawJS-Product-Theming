@@ -1,0 +1,17 @@
+@function color($color-name) {
+  @return var(--color-#{$color-name});
+}
+
+@function global-vars($var-name) {
+  @return var(--global-#{$var-name});
+}
+
+@function localVars($component, $key) {
+  @if not map-has-key($localVars, $component) {
+    @error 'No such component!'
+  } @else if not map-has-key(map-get($localVars, $component), $key) {
+    @error 'No such selector!'
+  } @else {
+    @return var(--local-#{$component}-#{$key});
+  }
+}

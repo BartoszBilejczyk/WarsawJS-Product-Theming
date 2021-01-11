@@ -1,0 +1,10 @@
+@mixin font-family($font) {
+  font-family: $font, sans-serif;
+}
+
+@mixin center($horizontal: -50%, $vertical: -50%) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(#{$horizontal}, #{$vertical})
+}
