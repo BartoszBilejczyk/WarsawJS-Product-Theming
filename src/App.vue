@@ -18,7 +18,12 @@
                 {{ product.description }}
               </div>
 
-              <a :href="product.url" target="_blank" rel="noopener noreferrer" class="app__options-button" >
+              <a
+                :href="product.url"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="app__options-button"
+              >
                 Discover
               </a>
             </div>
@@ -26,7 +31,7 @@
         </div>
       </div>
       <img
-        alt="Online Meeting Illustration"
+        alt="Product Illustration"
         class="app__illustration"
         :src="imagePath"
       />
