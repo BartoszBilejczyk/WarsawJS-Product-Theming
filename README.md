@@ -1,4 +1,7 @@
-# hello
+# White-labeling your product
+## Based on SASS and JS, to sell to different client as a service.
+
+## This solution was created for WarsawJS presentation (13 Jan 2021)
 
 ## Project setup
 ```
