@@ -1,7 +1,7 @@
 <template>
   <div class="app__wrapper">
     <div class="app">
-      <div class="app__item app__categories">
+      <div class="app__item">
         <div class="app__options">
           <BaseLogo small class="clickable" />
           <h1>Products</h1>
@@ -11,13 +11,8 @@
               v-for="product in products"
               :key="product.id"
             >
-              <div class="app__options-heading">
-                {{ product.title }}
-              </div>
-              <div class="app__options-description">
-                {{ product.description }}
-              </div>
-
+              <div class="app__options-heading">{{ product.title }}</div>
+              <div class="app__options-description">{{ product.description }}</div>
               <a
                 :href="product.url"
                 target="_blank"
@@ -36,10 +31,7 @@
         :src="imagePath"
       />
       <div class="app__circle app__circle-one" />
-      <div
-        class="app__circle app__circle-two"
-        :class="{ 'app__circle-two--active': isOpen }"
-      />
+      <div class="app__circle app__circle-two" />
     </div>
   </div>
 </template>
@@ -84,6 +76,7 @@
 
     &__item {
       height: 100%;
+      width: 50%;
       z-index: 2;
       position: relative;
       box-shadow: 0 10px 80px rgba(0, 0, 0, 0.12);
@@ -95,10 +88,6 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-    }
-
-    &__categories {
-      width: 50%;
     }
 
     &__options {
