@@ -8,7 +8,7 @@ module.exports = {
         additionalData: `
           @import "@/styles/global/_mixins.scss";
           @import "@/styles/global/_variables.scss";
-          @import "@/styles/global/${getVariablePath()}.scss";
+          @import "@/styles/product-specific/${getVariablePath()}.scss";
           @import "@/styles/global/_functions.scss";
         `
       }

@@ -1,4 +1,4 @@
-import { Products } from '@/config/product-specific/app';
+import { Products } from '@/config/product-specific';
 
 const config: Products = {
   products: [

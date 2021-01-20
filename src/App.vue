@@ -41,7 +41,7 @@
 
   import BaseLogo from '@/components/BaseLogo.vue';
 
-  import config from '@/config/product-specific/app';
+  import config from '@/config/product-specific';
 
   export default defineComponent({
     name: 'App',
